@@ -136,7 +136,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header {
@@ -160,6 +160,7 @@ body {
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
+  /* height: 100vh; */
 }
 
 .header__block-box {
