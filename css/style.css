@@ -136,7 +136,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header {
@@ -209,8 +209,11 @@ body {
   background-color: rgba(0, 0, 0, .5);
   color: var(--orange);
   font-size: 15px;
-  margin-bottom: 20px;
   text-align: center;
+}
+
+.header__block-item-descr:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .header__btn {
@@ -279,10 +282,6 @@ background-position: center;
   align-items: center;
 }
 
-.reviews__slide {
-
-}
-
 .reviews__user {
   display: inline-block;
   margin-right: 10%;
@@ -317,6 +316,10 @@ background-position: center;
 
 .reviews__photo-3 {
   background-image: url('../img/reviews-3.jpg');
+}
+
+.slick-prev {
+  display: none;
 }
 
 .slick-prev:before, .slick-next:before {
