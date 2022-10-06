@@ -100,18 +100,19 @@
     margin-bottom: 20px;
   }
 
-  .slick-prev,
-  .slick-next {
-    top: 20%;
+  .slick-prev::before,
+  .slick-next::before,
+  .slick-arrow {
+    display: none;
   }
 
-  .slick-prev {
+  /* .slick-prev {
     left: 1%;
-  }
+  } */
 
-  .slick-next {
+  /* .slick-next {
     right: 10%;
-  }
+  } */
 
   .registration__block {
     flex-direction: column;
